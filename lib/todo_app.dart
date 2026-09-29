@@ -18,7 +18,7 @@ class TodoApp extends StatelessWidget {
         supportedLocales: context.supportedLocales,
         locale: context.locale,
         title: 'Todo App',
-        theme: ThemeData(primarySwatch: Colors.blue),
+        theme: ThemeData(scaffoldBackgroundColor: Colors.white),
         home: const SplashScreen(),
       ),
     );
